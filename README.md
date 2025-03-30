@@ -497,7 +497,7 @@ This project demonstrates the application of SQL skills in creating and managing
 
 ## Author - Namancric 
 
-This project showcases SQL skills essential for database management and analysis. For more content on SQL and data analysis, connect with me through my linkrdin:
+This project showcases SQL skills essential for database management and analysis. For more content on SQL and data analysis, connect with me through my LinkedIn:
 
 - **LinkedIn**: www.linkedin.com/in/naman-jain-a41893266
 
