@@ -2,13 +2,12 @@
 
 ## Project Overview
 
-**Project Title**: Library Management System  
-**Level**: Intermediate  
-**Database**: `library_db`
+**Project Title**: Library Management System    
 
 This project demonstrates the implementation of a Library Management System using SQL. It includes creating and managing tables, performing CRUD operations, and executing advanced SQL queries. The goal is to showcase skills in database design, manipulation, and querying.
 
-https://cdn.pixabay.com/photo/2023/01/26/02/15/books-7744938_1280.jpg
+![image](https://github.com/user-attachments/assets/869293f4-55a9-4c21-b7dd-ab787c222d7a)
+
 
 ## Objectives
 
@@ -20,9 +19,11 @@ https://cdn.pixabay.com/photo/2023/01/26/02/15/books-7744938_1280.jpg
 ## Project Structure
 
 ### 1. Database Setup
-![ERD](https://github.com/najirh/Library-System-Management---P2/blob/main/library_erd.png)
+![Screenshot 2025-02-23 115044](https://github.com/user-attachments/assets/9df47917-5b0f-4d3c-a0d4-0e51772de5b2)
 
-- **Database Creation**: Created a database named `library_db`.
+
+
+- **Database Creation**: Created a database named `library_project_2`.
 - **Table Creation**: Created tables for branches, employees, members, books, issued status, and return status. Each table includes relevant columns and relationships.
 
 ```sql
@@ -406,11 +407,7 @@ ON e.branch_id = b.branch_id
 GROUP BY 1, 2
 ```
 
-**Task 18: Identify Members Issuing High-Risk Books**  
-Write a query to identify members who have issued books more than twice with the status "damaged" in the books table. Display the member name, book title, and the number of times they've issued damaged books.    
-
-
-**Task 19: Stored Procedure**
+**Task 18: Stored Procedure**
 Objective:
 Create a stored procedure to manage the status of books in a library system.
 Description:
@@ -475,18 +472,6 @@ WHERE isbn = '978-0-375-41398-8'
 
 
 
-**Task 20: Create Table As Select (CTAS)**
-Objective: Create a CTAS (Create Table As Select) query to identify overdue books and calculate fines.
-
-Description: Write a CTAS query to create a new table that lists each member and the books they have issued but not returned within 30 days. The table should include:
-    The number of overdue books.
-    The total fines, with each day's fine calculated at $0.50.
-    The number of books issued by each member.
-    The resulting table should show:
-    Member ID
-    Number of overdue books
-    Total fines
-
 
 
 ## Reports
@@ -494,6 +479,7 @@ Description: Write a CTAS query to create a new table that lists each member and
 - **Database Schema**: Detailed table structures and relationships.
 - **Data Analysis**: Insights into book categories, employee salaries, member registration trends, and issued books.
 - **Summary Reports**: Aggregated data on high-demand books and employee performance.
+- 
 
 ## Conclusion
 
@@ -510,13 +496,10 @@ This project demonstrates the application of SQL skills in creating and managing
 3. **Run the Queries**: Use the SQL queries in the `analysis_queries.sql` file to perform the analysis.
 4. **Explore and Modify**: Customize the queries as needed to explore different aspects of the data or answer additional questions.
 
-## Author - Zero Analyst
+## Author - Namancric 
 
-This project showcases SQL skills essential for database management and analysis. For more content on SQL and data analysis, connect with me through the following channels:
+This project showcases SQL skills essential for database management and analysis. For more content on SQL and data analysis, connect with me through my linkrdin:
 
-- **YouTube**: [Subscribe to my channel for tutorials and insights](https://www.youtube.com/@zero_analyst)
-- **Instagram**: [Follow me for daily tips and updates](https://www.instagram.com/zero_analyst/)
-- **LinkedIn**: [Connect with me professionally](https://www.linkedin.com/in/najirr)
-- **Discord**: [Join our community for learning and collaboration](https://discord.gg/36h5f2Z5PK)
+- **LinkedIn**: www.linkedin.com/in/naman-jain-a41893266
 
 Thank you for your interest in this project!
